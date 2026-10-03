@@ -1,0 +1,30 @@
+{
+  "name": "turing-trap-multiplayer",
+  "version": "1.0.0",
+  "description": "Turing Trap: A Jackbox-style real-time multiplayer AI deception party game for the Handshake AI Skills Studio X OpenAI Challenge",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "multiplayer",
+    "socket.io",
+    "party-game",
+    "ai-challenge",
+    "handshake",
+    "openai",
+    "turing-test"
+  ],
+  "author": "Antigravity Pair",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "socket.io-client": "^4.8.3"
+  }
+}
